@@ -32,7 +32,7 @@ sudo pacman -S sqlite
 ## Build & Install
 
 ```bash
-git clone <repo>
+git clone https://github.com/pycine/rasd
 cd rasd
 make
 sudo make install           # installs to /usr/local/bin/rasd
