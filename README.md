@@ -154,6 +154,4 @@ A quiet daemon that watches your network so you don't have to.
 
 ---
 
-## License
 
-MIT
