@@ -1,0 +1,6 @@
+# build artifacts
+src/*.o
+rasd
+
+# DB
+~/.rasd/

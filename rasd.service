@@ -1,0 +1,12 @@
+[Unit]
+Description=rasd — network usage recorder
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/rasd record -w 3
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
